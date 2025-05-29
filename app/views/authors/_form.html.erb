@@ -18,7 +18,7 @@
 
   <div>
     <%= form.label :country_id, style: "display: block" %>
-    <%= form.text_field :country_id %>
+    <%= form.collection_select :country_id, Country.all, :id, :name, prompt:"Choisissez un pays" %>
   </div>
 
   <div>

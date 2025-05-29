@@ -1,0 +1,3 @@
+<% ["authors", "books", "countries", "genres", "publishers"].each do |page| %>
+  <%= link_to page.capitalize, send("#{page}_path"), class:("active" if params[:controller]==page) %>
+<% end %>
