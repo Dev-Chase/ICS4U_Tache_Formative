@@ -1,0 +1,8 @@
+<% if admin_user_signed_in? %>
+  <% user = current_admin_user %>
+  <h1>Welcome home, <h3 style="color:blue;"><%= user.email %></h3></h1>
+  <%= link_to "Sign out", destroy_admin_user_session_path, data: { method: :delete } %>
+<% else %>
+  <h1>Home</h1>
+  <%= link_to "Admin Sign in", new_admin_user_session_path %>
+<% end %>
