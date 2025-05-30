@@ -1,24 +1,3 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# NOTE:
+## J'ai essayé à l'origine de créer le projet avec des noms français, mais j'ai eu des difficultés avec les règles de pluralisation, surtout avec « pays », alors j'ai décidé de refaire le projet avec des noms anglais.
